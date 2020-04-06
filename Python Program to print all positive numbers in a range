@@ -1,0 +1,13 @@
+Python program to print all positive numbers in a range list1 [12,-7,5,64,-14]
+nums=[12,-7,5,64,-14]
+print("Original numbers in the list: ",nums)
+new_nums=list(filter(lambda x: x >0,nums))
+print("Positive numbers in the list: ",new_nums)
+  Positive numbers in the list:  [12, 5, 64]
+  
+  for list2 [12,14,-95,3]
+  nums=[12,14,-95,3]
+  nums.pop(2)
+    -95
+    nums
+      [12,14,3]
